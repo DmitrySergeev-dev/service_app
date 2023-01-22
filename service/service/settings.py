@@ -137,3 +137,5 @@ LOGGING = {
         }
     }
 }
+
+CELERY_BROKER_URL = 'redis://redis:6379/0'  # redis://{redise_service_hostname}:{port}/{database_id}
